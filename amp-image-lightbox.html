@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html amp>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="assets/images/face1.jpg" type="image/x-icon">
+    <title>amp-anim</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="canonical" href="amp-anim.html">
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style>
+
+    <style amp-custom>
+        amp-anim {
+            background-color: grey;
+        }
+    </style>
+
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
+</head>
+
+<body>
+    <figure>
+        <amp-img on="tap:lightbox1" role="button" tabindex="0" src="./assets/images/face1.jpg" alt="PP" title="Profile Picture"
+            layout="fixed" width="300" height="246"></amp-img>
+        <figcaption>Aykut Asil</figcaption>
+    </figure>
+
+    <amp-img on="tap:lightbox1" role="button" tabindex="0" aria-describedby="imageDescription" alt="PP" title="Aykut Asil"
+        src="./assets/images/face1.jpg" width="300" height="246"></amp-img>
+    <div id="imageDescription">
+        Aykut ASİL
+    </div>
+
+
+    <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
+</body>
+
+</html>
