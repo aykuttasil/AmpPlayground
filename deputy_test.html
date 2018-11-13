@@ -2079,12 +2079,12 @@
   }
 
   .headerplace {
-      background-image: url("assets/images/beautyback1-1920x1280.jpg");
+       background-image: url("assets/images/headerplace_bg.jpg");    
   }
 
   .headerplace .mbr-overlay {
       background-color: #767676;
-      opacity: 0.5;
+      opacity: 0.;
   }
 
   .headerplace .mbr-row {
@@ -2666,206 +2666,75 @@
     <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
     <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+    <script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
 </head>
 
 <body>
 
-    <section class="menu1 menu horizontal-menu dpty" id="menu1-6c">
-        <amp-animation id="showAnim" layout="nodisplay">
-            <script type="application/json">
-                {
-                    "duration": "200ms",
-                    "fill": "both",
-                    "iterations": "1",
-                    "direction": "alternate",
-                    "animations": [{
-                        "selector": "#navbarSupportedContent",
-                        "keyframes": {
-                            "opacity": "1",
-                            "visibility": "visible"
-                        }
-                    }]
-                }
-            </script>
-        </amp-animation>
-
-        <amp-animation id="hideAnim" layout="nodisplay">
-            <script type="application/json">
-                {
-                    "duration": "200ms",
-                    "fill": "both",
-                    "iterations": "1",
-                    "direction": "alternate",
-                    "animations": [{
-                        "selector": "#navbarSupportedContent",
-                        "keyframes": {
-                            "opacity": "0",
-                            "visibility": "hidden"
-                        }
-                    }]
-                }
-            </script>
-        </amp-animation>
-
-        <div id="marker">
-            <amp-position-observer on="enter:showAnim.start; exit:hideAnim.start" layout="nodisplay"></amp-position-observer>
-        </div>
-
-        <!--
-        <nav class="navbar navbar-dropdown navbar-expand-lg navbar-fixed-top">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <amp-img src="assets/images/beautylogo-110x110.png" layout="responsive" width="55" height="55" alt="Mobirise"
-                        class="mobirise-loader">
-                        <div placeholder="">
-                            <div class="mobirise-spinner">
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                            </div>
-                        </div>
-                        <a href="index.html"></a>
-                    </amp-img>
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-danger display-6" href="index.html">BeautyAMP</a></span>
-            </div>
-            <div class="navbar-info">
-                <span class="navbar-schedule mbr-fonts-style display-7">
-                    MON – SAT: 7.00–18.00<br>
-                    SUNDAY: CLOSED
-                </span>
-                <span class="phone-wrap display-7">
-                    <a class="navbar-phone text-danger" href="tel:+10000000000">+1-000-0000000</a>
-                </span>
-            </div>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-md btn-danger display-4" href="https://mobirise.com">
-                    Book Now
-                </a></div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                    <li class="nav-item">
-                        <a class="nav-link link text-danger display-4" href="index.html">
-                            HOME
-                        </a>
-
-                    </li>
-                    <li class="nav-item dropdown open">
-                        <a class="nav-link link dropdown-toggle text-danger display-4" data-toggle="dropdown-submenu"
-                            aria-expanded="true">
-                            SERVICES
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item text-danger display-4" href="https://mobirise.com">New Item</a>
-                            <a class="dropdown-item text-danger display-4" href="https://mobirise.com">New Item</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link link text-danger display-4" href="https://mobirise.com">
-                            ABOUT US
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-        </nav>
-    -->
-
-        <!-- AMP plug -->
-        <button on="tap:sidebar.toggle" class="ampstart-btn hamburger sticky-but">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-    </section>
-
     <section class="header2 headerplace mbr-fullscreen" id="header2-o">
         <div class="container">
             <div class="mbr-row">
-                <div class="mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-6 mbr-white align-center">
-                    <h1 class="mbr-section-title mbr-fonts-style display-1">Essence Of Natural Beauty</h1>
+                <div class="mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-6 align-center">
+                    <h1 class="mbr-section-title mbr-fonts-style display-1">Kim Bu Milletvekili?</h1>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--
-    <section class="features8 cid-qRJkgcXoOE" id="features8-q">
-        <div class="container-fluid">
-            <div class="title-wrap align-center">
-                <h2 class="mbr-section-title mbr-fonts-style display-2">Hair &amp; Beauty Services
-                </h2>
-                <div class="underline">
-                    <div class="line"></div>
-                </div>
+    <section>
+        <template type="amp-mustache" id="submit_success_template">
+            Success! Thanks {{name}} for subscribing! Please make sure to check your email {{email}}
+            to confirm! After that we'll start sending you weekly articles on {{#interests}}<b>{{name}}</b>
+            {{/interests}}.
+        </template>
+        <template type="amp-mustache" id="submit_error_template">
+            Oops! {{name}}, {{message}}.
+        </template>
 
+        <form ...>
+            <fieldset>
+                ...
+            </fieldset>
+            <div submit-success template="submit_success_template"></div>
+            <div submit-error template="submit_error_template"></div>
+        </form>
+
+        <h4>Search (GET xhr cross origin current host > httpbin.org)</h4>
+        <form method="get" action="https://httpbin.org/response-headers?AMP-Access-Control-Allow-Source-Origin=http%3A%2F%2F127.0.0.1%3A5500&access-control-expose-headers=AMP-Access-Control-Allow-Source-Origin"
+            action-xhr="https://httpbin.org/response-headers?AMP-Access-Control-Allow-Source-Origin=http%3A%2F%2F127.0.0.1%3A5500&access-control-expose-headers=AMP-Access-Control-Allow-Source-Origin"
+            target="_blank">
+            <fieldset>
+                <input name="clientId" type="hidden" value="CLIENT_ID(poll)" data-amp-replace="CLIENT_ID"/>
+                <input name="canonicalUrl" type="hidden" value="RANDOM and CANONICAL_URL" data-amp-replace="CANONICAL_URL RANDOM"/>
+                <input name="name" type="hidden" value="kerem"/>
+                <label>
+                    <span>Search for</span>
+                    <input type="search" name="term" required>
+                </label>
+                <input name="submit-button" type="submit" value="Search">
+            </fieldset>
+
+            <div submit-success template="submit_success_template"></div>
+            <div submit-error template="submit_error_template"></div>
+            <!--
+            <div submit-success>
+                <template type="amp-mustache">
+                    <h1>You searched for: {{term}}</h1>
+                </template>
             </div>
-            <div class="mbr-row mbr-justify-content-center">
-                <div class="card mbr-col-sm-12 mbr-col-md-5 mbr-col-lg-2">
-                    <div class="card-img">
-                        <span class="mbr-iconfont fa fa-cut"></span>
-                    </div>
-                    <h3 class="mbr-card-title mbr-fonts-style align-center display-5">
-                        Hair Styling</h3>
-
-
-                </div>
-
-                <div class="card mbr-col-sm-12 mbr-col-md-5 mbr-col-lg-2">
-                    <div class="card-img">
-                        <span class="mbr-iconfont fa-eyedropper fa"></span>
-                    </div>
-                    <h3 class="mbr-card-title mbr-fonts-style align-center display-5">
-                        Hair Coloring</h3>
-
-
-                </div>
-
-                <div class="card mbr-col-sm-12 mbr-col-md-5 mbr-col-lg-2">
-                    <div class="card-img">
-                        <span class="mbr-iconfont fa-paint-brush fa"></span>
-                    </div>
-                    <h3 class="mbr-card-title mbr-fonts-style align-center display-5">
-                        Special Makeup</h3>
-
-
-                </div>
-
-                <div class="card mbr-col-sm-12 mbr-col-md-5 mbr-col-lg-2">
-                    <div class="card-img">
-                        <span class="mbr-iconfont fa-hand-stop-o fa"></span>
-                    </div>
-                    <h3 class="mbr-card-title mbr-fonts-style align-center display-5">
-                        Nails Care</h3>
-
-
-                </div>
-
-                <div class="card mbr-col-sm-12 mbr-col-md-5 mbr-col-lg-2">
-                    <div class="card-img">
-                        <span class="mbr-iconfont fa-sun-o fa"></span>
-                    </div>
-                    <h3 class="mbr-card-title mbr-fonts-style align-center display-5">
-                        Tanning</h3>
-
-
-                </div>
-
-
-
-            </div>
-        </div>
+            -->
+        </form>
     </section>
-    -->
 
     <section class="team1 cid-qRJlPovbi7" id="team1-t">
         <div class="mbr-overlay"></div>
         <div class="container">
             <div class="title-wrap align-center">
-                <h1 class="mbr-section-title mbr-fonts-style display-2">Our Team
-                </h1>
+                <h1 class="mbr-section-title mbr-fonts-style display-2">Milletvekilleri </h1>
                 <div class="underline">
                     <div class="line"></div>
                 </div>
@@ -2907,6 +2776,228 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
+                    <div class="card-wrapper">
+                        <div class="card-img img-with-overlay">
+                            <amp-img src="assets/images/face1.jpg" layout="responsive" width="255" height="255" alt="Mobirise">
+                                <div placeholder="">
+                                    <div class="mobirise-spinner">
+                                        <em></em>
+                                        <em></em>
+                                        <em></em>
+                                    </div>
+                                </div>
+
+                            </amp-img>
+                            <div class="icons-list">
+                                <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                                    <span class="amp-iconfont fa-facebook-f fa"></span>
+                                </a><a href="https://www.linkedin.com/in/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-linkedin fa"></span>
+                                </a><a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-twitter fa"></span>
+                                </a></div>
+                        </div>
+                        <div class="card-box align-center">
+                            <h3 class="card-title mbr-fonts-style display-6">
+                                Jane Doe
+                            </h3>
+                            <h4 class="mbr-fonts-style card-subtitle display-4">
+                                HAIR STYLIST</h4>
+
+                            <p class="card-text mbr-fonts-style mbr-light display-7 ptop">
+                                Haircuts for women
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
+                    <div class="card-wrapper">
+                        <div class="card-img img-with-overlay">
+                            <amp-img src="assets/images/face1.jpg" layout="responsive" width="255" height="255" alt="Mobirise">
+                                <div placeholder="">
+                                    <div class="mobirise-spinner">
+                                        <em></em>
+                                        <em></em>
+                                        <em></em>
+                                    </div>
+                                </div>
+
+                            </amp-img>
+                            <div class="icons-list">
+                                <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                                    <span class="amp-iconfont fa-facebook-f fa"></span>
+                                </a><a href="https://www.linkedin.com/in/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-linkedin fa"></span>
+                                </a><a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-twitter fa"></span>
+                                </a></div>
+                        </div>
+                        <div class="card-box align-center">
+                            <h3 class="card-title mbr-fonts-style display-6">
+                                Jane Doe
+                            </h3>
+                            <h4 class="mbr-fonts-style card-subtitle display-4">
+                                HAIR STYLIST</h4>
+
+                            <p class="card-text mbr-fonts-style mbr-light display-7 ptop">
+                                Haircuts for women
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
+                    <div class="card-wrapper">
+                        <div class="card-img img-with-overlay">
+                            <amp-img src="assets/images/face1.jpg" layout="responsive" width="255" height="255" alt="Mobirise">
+                                <div placeholder="">
+                                    <div class="mobirise-spinner">
+                                        <em></em>
+                                        <em></em>
+                                        <em></em>
+                                    </div>
+                                </div>
+
+                            </amp-img>
+                            <div class="icons-list">
+                                <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                                    <span class="amp-iconfont fa-facebook-f fa"></span>
+                                </a><a href="https://www.linkedin.com/in/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-linkedin fa"></span>
+                                </a><a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-twitter fa"></span>
+                                </a></div>
+                        </div>
+                        <div class="card-box align-center">
+                            <h3 class="card-title mbr-fonts-style display-6">
+                                Jane Doe
+                            </h3>
+                            <h4 class="mbr-fonts-style card-subtitle display-4">
+                                HAIR STYLIST</h4>
+
+                            <p class="card-text mbr-fonts-style mbr-light display-7 ptop">
+                                Haircuts for women
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
+                    <div class="card-wrapper">
+                        <div class="card-img img-with-overlay">
+                            <amp-img src="assets/images/face1.jpg" layout="responsive" width="255" height="255" alt="Mobirise">
+                                <div placeholder="">
+                                    <div class="mobirise-spinner">
+                                        <em></em>
+                                        <em></em>
+                                        <em></em>
+                                    </div>
+                                </div>
+
+                            </amp-img>
+                            <div class="icons-list">
+                                <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                                    <span class="amp-iconfont fa-facebook-f fa"></span>
+                                </a><a href="https://www.linkedin.com/in/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-linkedin fa"></span>
+                                </a><a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-twitter fa"></span>
+                                </a></div>
+                        </div>
+                        <div class="card-box align-center">
+                            <h3 class="card-title mbr-fonts-style display-6">
+                                Jane Doe
+                            </h3>
+                            <h4 class="mbr-fonts-style card-subtitle display-4">
+                                HAIR STYLIST</h4>
+
+                            <p class="card-text mbr-fonts-style mbr-light display-7 ptop">
+                                Haircuts for women
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
+                    <div class="card-wrapper">
+                        <div class="card-img img-with-overlay">
+                            <amp-img src="assets/images/face1.jpg" layout="responsive" width="255" height="255" alt="Mobirise">
+                                <div placeholder="">
+                                    <div class="mobirise-spinner">
+                                        <em></em>
+                                        <em></em>
+                                        <em></em>
+                                    </div>
+                                </div>
+
+                            </amp-img>
+                            <div class="icons-list">
+                                <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                                    <span class="amp-iconfont fa-facebook-f fa"></span>
+                                </a><a href="https://www.linkedin.com/in/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-linkedin fa"></span>
+                                </a><a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-twitter fa"></span>
+                                </a></div>
+                        </div>
+                        <div class="card-box align-center">
+                            <h3 class="card-title mbr-fonts-style display-6">
+                                Jane Doe
+                            </h3>
+                            <h4 class="mbr-fonts-style card-subtitle display-4">
+                                HAIR STYLIST</h4>
+
+                            <p class="card-text mbr-fonts-style mbr-light display-7 ptop">
+                                Haircuts for women
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
+                    <div class="card-wrapper">
+                        <div class="card-img img-with-overlay">
+                            <amp-img src="assets/images/face1.jpg" layout="responsive" width="255" height="255" alt="Mobirise">
+                                <div placeholder="">
+                                    <div class="mobirise-spinner">
+                                        <em></em>
+                                        <em></em>
+                                        <em></em>
+                                    </div>
+                                </div>
+
+                            </amp-img>
+                            <div class="icons-list">
+                                <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                                    <span class="amp-iconfont fa-facebook-f fa"></span>
+                                </a><a href="https://www.linkedin.com/in/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-linkedin fa"></span>
+                                </a><a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="amp-iconfont fa-twitter fa"></span>
+                                </a></div>
+                        </div>
+                        <div class="card-box align-center">
+                            <h3 class="card-title mbr-fonts-style display-6">
+                                Jane Doe
+                            </h3>
+                            <h4 class="mbr-fonts-style card-subtitle display-4">
+                                HAIR STYLIST</h4>
+
+                            <p class="card-text mbr-fonts-style mbr-light display-7 ptop">
+                                Haircuts for women
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
 
                 <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
                     <div class="card-wrapper">
@@ -3016,136 +3107,6 @@
                     </div>
                 </div>
 
-            </div>
-        </div>
-    </section>
-
-    <section class="features3 cid-qRJn892PIZ" id="features3-v">
-        <div class="container-fluid">
-            <div class="mbr-row mbr-justify-content-center">
-                <div class="mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4">
-                    <div class="card card1">
-                        <div class="title-wrap">
-                            <h2 class="mbr-card-title mbr-fonts-style align-center display-2">
-                                Prices
-                            </h2>
-                            <div class="underline align-center">
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                        <div class="items-list">
-                            <div class="item-wrap">
-                                <span class="service mbr-fonts-style display-7">
-                                    HAIR STYLING</span>
-                                <span class="price mbr-fonts-style mbr-bold display-7">
-                                    $ 15
-                                </span>
-                            </div>
-                            <div class="item-wrap">
-                                <span class="service mbr-fonts-style display-7">
-                                    COLORING
-                                </span>
-                                <span class="price mbr-fonts-style mbr-bold display-7">
-                                    $ 60
-                                </span>
-                            </div>
-                            <div class="item-wrap">
-                                <span class="service mbr-fonts-style display-7">
-                                    MAKEUP</span>
-                                <span class="price mbr-fonts-style mbr-bold display-7">
-                                    $ 25
-                                </span>
-                            </div>
-                            <div class="item-wrap">
-                                <span class="service mbr-fonts-style display-7">
-                                    NAILS CARE</span>
-                                <span class="price mbr-fonts-style mbr-bold display-7">
-                                    $ 30
-                                </span>
-                            </div>
-                        </div>
-                        <div class="mbr-section-btn align-center"><a class="btn btn-sm btn-danger-outline display-4"
-                                href="https://mobirise.com">VIEW MORE</a></div>
-                    </div>
-                </div>
-
-                <div class="mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4">
-                    <div class="card card2 align-center">
-                        <div class="img-wrap img-with-overlay">
-                            <amp-img src="assets/images/05.jpg" layout="responsive" width="390.37883343355384" height="541"
-                                alt="Mobirise">
-                                <div placeholder="">
-                                    <div class="mobirise-spinner">
-                                        <em></em>
-                                        <em></em>
-                                        <em></em>
-                                    </div>
-                                </div>
-
-                            </amp-img>
-                        </div>
-                        <div class="wrapper">
-                            <h2 class="mbr-card-title mbr-fonts-style mbr-white display-2">
-                                PROMO
-                            </h2>
-                            <p class="mbr-section-subtitle mbr-fonts-style display-6">
-                                Our Special Hand Made Cream
-                            </p>
-                            <p class="mbr-text mbr-fonts-style mbr-light mbr-white display-7">
-                                A real beauty salon exists to embody <br>
-                                the almost magical transformations of a woman<br>
-                                into an irresistible and desirable <br>
-                                Beauty Queen.
-                            </p>
-                            <p class="subtext mbr-fonts-style display-2">
-                                $ 36.99
-                            </p>
-                            <div class="mbr-section-btn"><a class="btn btn-sm btn-danger display-4" href="https://mobirise.com">READ
-                                    MORE</a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4">
-                    <div class="card card3">
-                        <div class="title-wrap">
-                            <h2 class="mbr-card-title mbr-fonts-style align-center display-2">
-                                Shedule
-                            </h2>
-                            <div class="underline align-center">
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                        <div class="items-list">
-                            <div class="item-wrap">
-                                <span class="day mbr-fonts-style display-7">
-                                    WEEK DAYS
-                                </span>
-                                <span class="time mbr-fonts-style mbr-bold display-7">
-                                    9:00 - 18:00
-                                </span>
-                            </div>
-                            <div class="item-wrap">
-                                <span class="service mbr-fonts-style display-7">
-                                    SATURDAY
-                                </span>
-                                <span class="price mbr-fonts-style mbr-bold display-7">
-                                    10:00 - 17:00
-                                </span>
-                            </div>
-                            <div class="item-wrap">
-                                <span class="service mbr-fonts-style display-7">
-                                    SUNDAY
-                                </span>
-                                <span class="price mbr-fonts-style mbr-bold display-7">
-                                    CLOSED
-                                </span>
-                            </div>
-                        </div>
-                        <div class="mbr-section-btn align-center"><a class="btn btn-sm btn-danger-outline display-4"
-                                href="https://mobirise.com">BOOK NOW</a></div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
